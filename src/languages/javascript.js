@@ -12,7 +12,9 @@ function(hljs) {
         'instanceof with throw case default try this switch continue typeof delete ' +
         'let yield const export super debugger as async await ' +
         // ECMAScript 6 modules import
-        'import from as'
+        'import from as ' +
+        // CraftML keywords
+        'params '
       ,
       literal:
         'true false null undefined NaN Infinity',
